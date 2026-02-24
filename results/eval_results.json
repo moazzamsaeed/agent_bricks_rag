@@ -1,0 +1,296 @@
+{
+  "run_timestamp": "2026-02-24T18:11:46.152432+00:00",
+  "host": "https://adb-6417907769725610.10.azuredatabricks.net",
+  "endpoint": "ka-e53ea1a5-endpoint",
+  "total": 20,
+  "passed": 18,
+  "failed": 2,
+  "errors": [],
+  "results": [
+    {
+      "index": 1,
+      "title": "Q1 2025 Earnings Report",
+      "question": "What was the year-over-year growth in revenue for the software segment in Q1 2025?",
+      "guideline": "The answer must include the year-over-year growth percentage for the software segment, which is 20%.",
+      "pdf_path": "/Volumes/unstructured/rag_data/raw_data/pdf_documents/fin_report_001.pdf",
+      "answer": "The year-over-year growth in revenue for the software segment in Q1 2025 was 20%. The software segment generated $543 million in Q1 2025 compared to $452 million in Q1 2024.",
+      "citations": [
+        "fin_report_001.pdf"
+      ],
+      "score": 1,
+      "reasoning": "The assistant's answer satisfies the guideline because it includes the year-over-year growth percentage for the software segment, which is 20%, as required. The additional information about the revenue generated in Q1 2025 and Q1 2024 provides context but is not necessary to meet the guideline.",
+      "error": false
+    },
+    {
+      "index": 2,
+      "title": "Q2 2025 Earnings Report",
+      "question": "What is the expected full-year revenue growth for 2025?",
+      "guideline": "The answer must include a range of 10-12% and be based on the forward guidance provided in the document.",
+      "pdf_path": "/Volumes/unstructured/rag_data/raw_data/pdf_documents/fin_report_002.pdf",
+      "answer": "Based on the provided financial documents, there are different revenue growth figures mentioned for 2025 depending on the report:\n\nThe Q4 2025 Annual Summary reports that the company achieved a revenue of $10.2 billion for the full year 2025, representing a 12% increase from the previous year.\n\nHowever, earlier in the year, the company provided guidance with different expectations:\n\n- In the Q1 2025 report, the company reaffirmed revenue guidance of $5.2 billion to $5.5 billion for the full year 2025.\n\n- In the Q2 2025 report, the company maintained forward guidance of expected full-year revenue growth of 10-12%.\n\nThe actual full-year result of **12% revenue growth** (as stated in the annual summary) fell at the upper end of the guidance range that was provided throughout the year.",
+      "citations": [
+        "fin_report_004.pdf",
+        "fin_report_001.pdf",
+        "fin_report_002.pdf"
+      ],
+      "score": 1,
+      "reasoning": "The assistant's answer includes a range of 10-12% and is based on the forward guidance provided in the document, satisfying the guideline requirements. The answer also provides additional context and information from the financial documents to support the revenue growth figure.",
+      "error": false
+    },
+    {
+      "index": 3,
+      "title": "Q3 2025 Earnings Report",
+      "question": "What was the year-over-year percentage change in revenue for Q3 2025?",
+      "guideline": "The answer must include the actual percentage change in revenue, which is 12%, and must be based on the data presented in the Q3 2025 earnings report.",
+      "pdf_path": "/Volumes/unstructured/rag_data/raw_data/pdf_documents/fin_report_003.pdf",
+      "answer": "The year-over-year percentage change in revenue for Q3 2025 was 12%, with quarterly revenue of $1.23 billion compared to $1.10 billion in Q3 2024.",
+      "citations": [
+        "fin_report_003.pdf"
+      ],
+      "score": 1,
+      "reasoning": "The assistant's answer satisfies the guideline as it includes the actual percentage change in revenue, which is 12%, and is based on the data presented in the Q3 2025 earnings report, providing a clear comparison with the previous year's revenue.",
+      "error": false
+    },
+    {
+      "index": 4,
+      "title": "Q4 2025 Annual Summary",
+      "question": "What was the company's revenue growth rate in 2025?",
+      "guideline": "The answer should include the actual revenue growth rate of 12% and the revenue amount of $10.2 billion for the full year 2025.",
+      "pdf_path": "/Volumes/unstructured/rag_data/raw_data/pdf_documents/fin_report_004.pdf",
+      "answer": "Based on the provided financial documents, the company achieved different revenue growth rates depending on the reporting period in 2025:\n\n**Full Year 2025:**\nThe company reported a revenue of $10.2 billion for the full year 2025, representing a 12% increase from the previous year.\n\n**Quarterly Growth Rates in 2025:**\n- Q1 2025: Q1 revenue increased by 12% year-over-year to $1.23 billion\n- Q2 2025: Quarterly revenue of $1.23 billion, a 12% increase from the same period last year\n- Q3 2025: Quarterly revenue for Q3 2025 was $1.23 billion, representing a 12% increase from the same period last year\n\nThe company consistently achieved a **12% year-over-year revenue growth rate** throughout 2025, both for the full year and across all reported quarters.",
+      "citations": [
+        "fin_report_004.pdf",
+        "fin_report_001.pdf",
+        "fin_report_002.pdf",
+        "fin_report_003.pdf"
+      ],
+      "score": 1,
+      "reasoning": "The assistant's answer includes the actual revenue growth rate of 12% and the revenue amount of $10.2 billion for the full year 2025, satisfying the guideline requirements. The additional information about quarterly growth rates provides further context but does not detract from the key information required.",
+      "error": false
+    },
+    {
+      "index": 5,
+      "title": "Annual Budget Plan FY2026",
+      "question": "What is the total budget allocated to the Sales and Marketing, Research and Development, and Operations departments?",
+      "guideline": "The answer must include the total budget amount for the specified departments, which can be calculated by adding the individual budget amounts for Sales and Marketing, Research and Development, and Operations, as outlined in the Departmental Budgets section and the data table.",
+      "pdf_path": "/Volumes/unstructured/rag_data/raw_data/pdf_documents/fin_report_005.pdf",
+      "answer": "The departmental budgets for FY2026 have been allocated as follows: Sales and Marketing - $150 million, Research and Development - $120 million, Operations - $100 million, and General and Administrative - $80 million.\n\nThe total budget allocated to Sales and Marketing, Research and Development, and Operations departments is **$370 million** ($150 million + $120 million + $100 million).",
+      "citations": [
+        "fin_report_005.pdf"
+      ],
+      "score": 1,
+      "reasoning": "The assistant's answer includes the total budget amount for the specified departments, calculated by adding the individual budget amounts for Sales and Marketing, Research and Development, and Operations, which substantially satisfies the guideline. The answer provides a clear and accurate calculation of the total budget.",
+      "error": false
+    },
+    {
+      "index": 6,
+      "title": "Capital Expenditure Policy",
+      "question": "What is the approval threshold for capital expenditures between $10,000 and $50,000?",
+      "guideline": "The answer must include the approval authority, which is the director, and the relevant expenditure range, which is between $10,000 and $50,000.",
+      "pdf_path": "/Volumes/unstructured/rag_data/raw_data/pdf_documents/fin_report_006.pdf",
+      "answer": "For capital expenditures between $10,000 and $50,000, approval from the director is required.",
+      "citations": [
+        "fin_report_006.pdf"
+      ],
+      "score": 1,
+      "reasoning": "The assistant's answer substantially satisfies the guideline as it correctly identifies the approval authority as the director and specifies the relevant expenditure range between $10,000 and $50,000. This answer includes all the required information.",
+      "error": false
+    },
+    {
+      "index": 7,
+      "title": "Expense Reimbursement Policy",
+      "question": "What are the per diem rates for meals and lodging in New York City?",
+      "guideline": "The answer must include the meal rate of $60 and the lodging rate of $200, as outlined in the per diem rates table.",
+      "pdf_path": "/Volumes/unstructured/rag_data/raw_data/pdf_documents/fin_report_007.pdf",
+      "answer": "The per diem rates for New York City are $60 for meals and $200 for lodging.",
+      "citations": [
+        "fin_report_007.pdf"
+      ],
+      "score": 1,
+      "reasoning": "The assistant's answer includes both the required meal rate of $60 and the lodging rate of $200, satisfying the guideline. This answer provides all the necessary information as outlined in the per diem rates table.",
+      "error": false
+    },
+    {
+      "index": 8,
+      "title": "Procurement & Vendor Policy",
+      "question": "What are the payment terms for invoices paid within 30 days?",
+      "guideline": "The answer must include the standard payment terms (net 60 days) and the early payment discount offered for invoices paid within 30 days.",
+      "pdf_path": "/Volumes/unstructured/rag_data/raw_data/pdf_documents/fin_report_008.pdf",
+      "answer": "The company offers early payment discounts for invoices paid within 30 days, which can help to improve cash flow and reduce costs.\n\nHowever, the specific discount percentage or amount is not provided in the available documents. The company's standard payment terms are net 60 days, meaning that payment is due 60 days from the date of invoice.",
+      "citations": [
+        "fin_report_008.pdf"
+      ],
+      "score": 1,
+      "reasoning": "The assistant's answer substantially satisfies the guideline as it mentions the standard payment terms of net 60 days and the early payment discount for invoices paid within 30 days, although it lacks the specific discount percentage or amount. The answer provides the necessary information about the payment terms and the discount, meeting the guideline's requirements.",
+      "error": false
+    },
+    {
+      "index": 9,
+      "title": "Internal Audit Report Q1 2025",
+      "question": "What is the remediation timeline for the control finding 'Inadequate segregation of duties in accounts payable'?",
+      "guideline": "The answer must include the specific remediation timeline (30 days) and the control finding ('Inadequate segregation of duties in accounts payable') to be considered correct.",
+      "pdf_path": "/Volumes/unstructured/rag_data/raw_data/pdf_documents/fin_report_009.pdf",
+      "answer": "The remediation timeline for the control finding \"Inadequate segregation of duties in accounts payable\" is 30 days.",
+      "citations": [
+        "fin_report_009.pdf"
+      ],
+      "score": 1,
+      "reasoning": "The assistant's answer includes both the specific remediation timeline of 30 days and the control finding 'Inadequate segregation of duties in accounts payable', fully satisfying the guideline. This indicates a complete and accurate response to the question.",
+      "error": false
+    },
+    {
+      "index": 10,
+      "title": "Internal Audit Report Q3 2025",
+      "question": "What is the risk rating and remediation timeline for the control finding 'Lack of monitoring'?",
+      "guideline": "The answer must include the risk rating (High) and remediation timeline (Immediate) for the control finding 'Lack of monitoring', as well as a brief explanation of the control finding and its potential impact on the company.",
+      "pdf_path": "/Volumes/unstructured/rag_data/raw_data/pdf_documents/fin_report_010.pdf",
+      "answer": "According to the Internal Audit Report Q3 2025, the control finding \"Lack of monitoring\" has a risk rating of High and requires Immediate remediation.",
+      "citations": [
+        "fin_report_010.pdf"
+      ],
+      "score": 0,
+      "reasoning": "The assistant's answer is missing a brief explanation of the control finding and its potential impact on the company, which is required by the guideline. Although it correctly states the risk rating and remediation timeline, the lack of explanatory content makes it incomplete.",
+      "error": false
+    },
+    {
+      "index": 11,
+      "title": "Revenue Recognition Policy",
+      "question": "What method should be used to estimate variable consideration when an entity has a large number of contracts with similar characteristics?",
+      "guideline": "The answer should include the expected value method, as this is the method used to estimate variable consideration when an entity has a large number of contracts with similar characteristics, as stated in the Variable Consideration section of the document.",
+      "pdf_path": "/Volumes/unstructured/rag_data/raw_data/pdf_documents/fin_report_011.pdf",
+      "answer": "When an entity has a large number of contracts with similar characteristics, the expected value method should be used to estimate variable consideration. In contrast, the most likely amount method is used when an entity has a single contract or a small number of contracts with distinct characteristics.\n\nThis guidance comes from the company's Revenue Recognition Policy document (fin_report_011.pdf), which outlines compliance with ASC 606 revenue recognition standards.",
+      "citations": [
+        "fin_report_011.pdf"
+      ],
+      "score": 1,
+      "reasoning": "The assistant's answer substantially satisfies the guideline as it correctly identifies the expected value method for estimating variable consideration in contracts with similar characteristics, aligning with the Variable Consideration section of the document. The answer also provides a clear distinction with the most likely amount method for contracts with distinct characteristics.",
+      "error": false
+    },
+    {
+      "index": 12,
+      "title": "Cash Flow Forecast 2026",
+      "question": "What is the expected operating cash flow for Q3 2026?",
+      "guideline": "The answer must include the expected operating cash flow for Q3 2026, which is $120 million, and provide context for the forecast, such as the assumptions and drivers behind the expected cash flow.",
+      "pdf_path": "/Volumes/unstructured/rag_data/raw_data/pdf_documents/fin_report_012.pdf",
+      "answer": "According to the Cash Flow Forecast 2026, the expected operating cash flow for Q3 is $120 million.",
+      "citations": [
+        "fin_report_012.pdf"
+      ],
+      "score": 0,
+      "reasoning": "The assistant's answer is missing context for the forecast, such as the assumptions and drivers behind the expected cash flow, which is required by the guideline. It only provides the expected operating cash flow value without any additional information.",
+      "error": false
+    },
+    {
+      "index": 13,
+      "title": "Tax Compliance Summary 2025",
+      "question": "What was the effective tax rate for the company in 2025?",
+      "guideline": "The answer must include the specific percentage value of the effective tax rate for 2025, which is 23.5%.",
+      "pdf_path": "/Volumes/unstructured/rag_data/raw_data/pdf_documents/fin_report_013.pdf",
+      "answer": "The company's effective tax rate for 2025 was 23.5%, which was a decrease from the previous year's rate of 25.1%. \n\nThis reduction is primarily due to the implementation of tax-saving initiatives and the optimization of the company's global tax structure.",
+      "citations": [
+        "fin_report_013.pdf"
+      ],
+      "score": 1,
+      "reasoning": "The assistant's answer satisfies the guideline because it includes the specific percentage value of the effective tax rate for 2025, which is 23.5%, as required. The additional information about the decrease from the previous year and the reasons for the reduction provides context but is not necessary to meet the guideline.",
+      "error": false
+    },
+    {
+      "index": 14,
+      "title": "Risk Management Framework",
+      "question": "What is the company's market risk threshold?",
+      "guideline": "The answer must include the specific value of the market risk threshold, which is 10% VaR, and explain that it means the company aims to limit its potential loss to 10% of its portfolio value over a one-day time horizon with a 95% confidence level.",
+      "pdf_path": "/Volumes/unstructured/rag_data/raw_data/pdf_documents/fin_report_014.pdf",
+      "answer": "The company's market risk threshold is set at 10% VaR, which means that the company aims to limit its potential loss to 10% of its portfolio value over a one-day time horizon with a 95% confidence level.\n\nThis information comes from the Risk Management Framework document (fin_report_014.pdf), specifically from the Market Risk Management section.",
+      "citations": [
+        "fin_report_014.pdf"
+      ],
+      "score": 1,
+      "reasoning": "The assistant's answer substantially satisfies the guideline as it includes the specific value of the market risk threshold and accurately explains its meaning, covering all required aspects.",
+      "error": false
+    },
+    {
+      "index": 15,
+      "title": "ESG Financial Disclosure 2025",
+      "question": "What was the percentage reduction in Scope 1 and 2 emissions achieved by the company in 2025?",
+      "guideline": "The answer must include the percentage reduction in Scope 1 and 2 emissions, which is 15%, and the year in which it was achieved, which is 2025.",
+      "pdf_path": "/Volumes/unstructured/rag_data/raw_data/pdf_documents/fin_report_015.pdf",
+      "answer": "In 2025, the company achieved a 15% reduction in Scope 1 and 2 emissions compared to the previous year.",
+      "citations": [
+        "fin_report_015.pdf"
+      ],
+      "score": 1,
+      "reasoning": "The assistant's answer substantially satisfies the guideline as it includes the required percentage reduction of 15% in Scope 1 and 2 emissions and the year 2025. The answer provides all the necessary information in a clear and concise manner.",
+      "error": false
+    },
+    {
+      "index": 16,
+      "title": "Merger & Acquisition Due Diligence",
+      "question": "What is the estimated range of the target company's valuation?",
+      "guideline": "The answer must include a range of $500 million to $750 million, and may also mention the methods used to estimate the valuation, such as the discounted cash flow (DCF) method and comparable company analysis.",
+      "pdf_path": "/Volumes/unstructured/rag_data/raw_data/pdf_documents/fin_report_016.pdf",
+      "answer": "The target company's valuation is estimated to be in the range of $500 million to $750 million. This analysis is based on a combination of market-based and income-based approaches, including the discounted cash flow (DCF) method and comparable company analysis.",
+      "citations": [
+        "fin_report_016.pdf"
+      ],
+      "score": 1,
+      "reasoning": "The assistant's answer satisfies the guideline as it includes the required range of $500 million to $750 million and mentions the methods used to estimate the valuation, such as the DCF method and comparable company analysis. This provides a comprehensive and accurate response to the question.",
+      "error": false
+    },
+    {
+      "index": 17,
+      "title": "Debt & Credit Facility Report",
+      "question": "What is the current interest coverage ratio of the company?",
+      "guideline": "The answer must include the current interest coverage ratio, which is 4.2 times, and indicate that this is above the required minimum of 3.5 times.",
+      "pdf_path": "/Volumes/unstructured/rag_data/raw_data/pdf_documents/fin_report_017.pdf",
+      "answer": "As of the latest quarter, the company's interest coverage ratio was 4.2 times, which is above the required minimum of 3.5 times.",
+      "citations": [
+        "fin_report_017.pdf"
+      ],
+      "score": 1,
+      "reasoning": "The assistant's answer substantially satisfies the guideline as it includes the current interest coverage ratio of 4.2 times and indicates that this is above the required minimum of 3.5 times. This provides all the necessary information as specified in the guideline.",
+      "error": false
+    },
+    {
+      "index": 18,
+      "title": "Inventory & COGS Analysis",
+      "question": "What is the margin of the top-selling product, XYZ?",
+      "guideline": "The answer must include the margin percentage of the top-selling product, XYZ, which is 25%.",
+      "pdf_path": "/Volumes/unstructured/rag_data/raw_data/pdf_documents/fin_report_018.pdf",
+      "answer": "The top-selling product, XYZ, has a margin of 25%.",
+      "citations": [
+        "fin_report_018.pdf"
+      ],
+      "score": 1,
+      "reasoning": "The assistant's answer includes the margin percentage of the top-selling product, XYZ, which is 25%, thus satisfying the guideline. This answer provides the required information directly and accurately.",
+      "error": false
+    },
+    {
+      "index": 19,
+      "title": "Employee Compensation & Benefits",
+      "question": "What is the bonus pool allocation for an entry-level employee?",
+      "guideline": "The answer must include the percentage of the bonus pool allocated to the entry-level employee, which is 5% according to the table.",
+      "pdf_path": "/Volumes/unstructured/rag_data/raw_data/pdf_documents/fin_report_019.pdf",
+      "answer": "The bonus pool allocation for an entry-level employee is 5%.",
+      "citations": [
+        "fin_report_019.pdf"
+      ],
+      "score": 1,
+      "reasoning": "The assistant's answer includes the required percentage of the bonus pool allocated to the entry-level employee, which is 5%, thus satisfying the guideline. The answer is direct and provides the necessary information.",
+      "error": false
+    },
+    {
+      "index": 20,
+      "title": "Financial Controls & SOX Compliance",
+      "question": "What is the total number of financial control deficiencies identified by the company?",
+      "guideline": "The answer must include the total count of deficiencies as per the table provided in the document, which includes material weaknesses, significant deficiencies, and control deficiencies.",
+      "pdf_path": "/Volumes/unstructured/rag_data/raw_data/pdf_documents/fin_report_020.pdf",
+      "answer": "The company identified a total of 17 financial control deficiencies, which are broken down as follows: 2 Material Weaknesses, 5 Significant Deficiencies, and 10 Control Deficiencies.\n\nAdditionally, the deficiencies are categorized by risk level: 3 High-Risk Areas and 7 Low-Risk Areas.\n\nThis information comes from the Summary of Financial Control Deficiencies and Remediation Status table in document fin_report_020.pdf.",
+      "citations": [
+        "fin_report_020.pdf"
+      ],
+      "score": 1,
+      "reasoning": "The assistant's answer substantially satisfies the guideline as it provides the total count of deficiencies, including material weaknesses, significant deficiencies, and control deficiencies, as required. The information is also correctly referenced to a specific table in a document.",
+      "error": false
+    }
+  ]
+}

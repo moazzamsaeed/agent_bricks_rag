@@ -1,0 +1,9 @@
+{
+  "tile_id": "e53ea1a5-833e-4f66-a9ea-90ec230b2739",
+  "name": "Financial_Reports_Assistant",
+  "endpoint_name": "ka-e53ea1a5-endpoint",
+  "endpoint_status": "ONLINE",
+  "examples_count": 0,
+  "volume_path": "/Volumes/unstructured/rag_data/raw_data/pdf_documents",
+  "workspace_url": "https://adb-6417907769725610.10.azuredatabricks.net"
+}
