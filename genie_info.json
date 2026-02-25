@@ -1,0 +1,11 @@
+{
+  "space_id": "01f111c8ee8d19828e098666a3ea5337",
+  "display_name": "Financial Reports Analytics",
+  "tables": [
+    "unstructured.rag_data.fin_kpis",
+    "unstructured.rag_data.fin_audit_findings"
+  ],
+  "warehouse_id": "2f0c6e5a9e9d67d1",
+  "workspace_url": "https://adb-6417907769725610.10.azuredatabricks.net",
+  "url": "https://adb-6417907769725610.10.azuredatabricks.net/genie/rooms/01f111c8ee8d19828e098666a3ea5337"
+}
